@@ -25,6 +25,7 @@ struct Book input_book_values(struct Book book)
 }
 
 void print_book(struct Book book)
+
 {
 	printf("\nDETAILS\n");
 	printf("Name = %s\n", book.name);
